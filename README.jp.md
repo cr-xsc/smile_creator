@@ -53,9 +53,9 @@ Jetson nanoに接続した USBウェブカメラ または CSIカメラの映像
 
    ```
    $ python3 smile_creator.py [--camera CAMERA_NUM]
-                           [--csi]
-                           [--smile]
-                           [-h] 
+                              [--csi]
+                              [--smile]
+                              [-h] 
                          
      optional arguments:
        -c CAMERA_NUM, --camera CAMERA_NUM
