@@ -72,7 +72,7 @@ while True:
     for (x, y, w, h) in faces:
         # 笑顔の検出（顔領域内のみ）
         roi_gray = gray[y:y + h, x:x + w]
-        smiles = smile_cascade.detectMultiScale(roi_gray, scaleFactor=1.8, minNeighbors=20, minSize=(25, 25))
+        smiles = smile_cascade.detectMultiScale(roi_gray, scaleFactor=1.8, minNeighbors=10, minSize=(25, 25))
 
         # -----笑顔貼り付け処理-----------------------------
         if args.smile:
