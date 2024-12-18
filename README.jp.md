@@ -89,8 +89,6 @@ CSIカメラを使用する場合はこのオプションを追加する
 
 
 #### コマンド例
-
-   ```
 csiカメラ
    ```
    $ python3 eye_mosaic.py --csi --smile
