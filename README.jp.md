@@ -83,7 +83,7 @@ CSIカメラを使用する場合はこのオプションを追加する
 
 笑顔検知
    ```
-   --smile, --s
+   -s, --smile
    ```
 ![笑顔検知](https://user-images.githubusercontent.com/121159170/209027050-cc40bd85-40b9-4dca-a526-306b5240bf68.png)
 
