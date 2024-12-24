@@ -8,7 +8,7 @@
 
 ## table of contents
 - [Operation overview](https://github.com/cr-xsc/smile_creator/blob/main/README.md#operation-overview)
-- [Prerequisites](https://github.com/CosmorootMcs/eye_mosaic#prerequisites)
+- [Prerequisites](https://github.com/cr-xsc/smile_creator/blob/main/README.md#prerequisites)
 - [Installation](https://github.com/CosmorootMcs/eye_mosaic#installation)
 - [Usage](https://github.com/CosmorootMcs/eye_mosaic#usage)
 
