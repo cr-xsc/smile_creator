@@ -10,8 +10,8 @@
 ## 目次
 - [動作概要](https://github.com/cr-xsc/smile_creator/blob/main/README.jp.md#%E5%8B%95%E4%BD%9C%E6%A6%82%E8%A6%81)
 - [前提とする環境](https://github.com/cr-xsc/smile_creator/blob/main/README.jp.md#%E5%89%8D%E6%8F%90%E3%81%A8%E3%81%99%E3%82%8B%E7%92%B0%E5%A2%83)
-- [インストール方法](https://github.com/CosmorootMcs/smile_creator#)
-- [実行手順](https://github.com/CosmorootMcs/smile_creator#)
+- [インストール方法](https://github.com/cr-xsc/smile_creator/blob/main/README.jp.md#%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%96%B9%E6%B3%95))
+- [実行手順](https://github.com/cr-xsc/smile_creator/blob/main/README.jp.md#%E5%AE%9F%E8%A1%8C%E6%89%8B%E9%A0%86))
 
 
 ## 動作概要
