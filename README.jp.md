@@ -9,7 +9,7 @@
 
 ## 目次
 - [動作概要](https://github.com/CosmorootMcs/smile_creator#)
-- [前提とする環境](https://github.com/CosmorootMcs/smile_creator#)
+- [前提とする環境]([https://github.com/CosmorootMcs/smile_creator#](https://github.com/cr-xsc/smile_creator/blob/main/README.jp.md#%E5%8B%95%E4%BD%9C%E6%A6%82%E8%A6%81))
 - [インストール方法](https://github.com/CosmorootMcs/smile_creator#)
 - [実行手順](https://github.com/CosmorootMcs/smile_creator#)
 
