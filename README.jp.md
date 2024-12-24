@@ -54,19 +54,17 @@ Jetson nanoに接続した USBウェブカメラ または CSIカメラの映像
    ```
    $ python3 smile_creator.py [--camera CAMERA_NUM]
                               [--csi]
-                              [--smile]
                               [-h] 
                          
      optional arguments:
        -c CAMERA_NUM, --camera CAMERA_NUM
                           camera number
        --csi              use CSI camera
-       -s, --smile        Smile detection
        -h, --help         show this help message and exit
    ```
 
 コマンドを実行すると、カメラの映像が出力され  
-カメラに顔が映ると、笑顔の検出をします。
+カメラに顔が映ると、笑顔の検出し、笑顔でない場合は笑顔の画像を顔に貼り付けます。
 
 ![398385607-0e53c046-e2a7-47f8-9328-ee58f4d02827](https://github.com/user-attachments/assets/1e8b42a4-6437-4cd4-abf6-f4f3394b7554)
 
@@ -81,14 +79,18 @@ CSIカメラを使用する場合はこのオプションを追加する
    --csi
    ```
 
-笑顔検知
+使用するカメラの番号を指定
    ```
-   -s, --smile
+   --camera CAMERA_NUM
    ```
 #### コマンド例
 csiカメラ
    ```
-   $ python3 eye_mosaic.py --csi -s
+   $ python3 eye_mosaic.py --csi
+   ```
+video1のカメラを使用
+   ```
+   $ python3 eye_mosaic.py --camera 1
    ```
 
 
