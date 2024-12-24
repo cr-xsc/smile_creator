@@ -1,7 +1,8 @@
 # smile_creator
 
 ## デモ動画
-![smile_creator](https://user-images.githubusercontent.com/121159170/209026626-af6ddac4-ed43-4377-83d4-50c0a04528c0.gif)
+![smile_creator](https://github.com/user-attachments/assets/fe0fca9a-33d3-499c-8b9e-09b607ac0d71)
+
 
 [動画リンク](https://www.youtube.com/watch?v=7SpeD7yOXh8)
 
