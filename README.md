@@ -64,7 +64,7 @@ Use the camera number you noted down. To end the program, press Q.
 When you execute the command, the camera will output video and if a face is captured on camera, 
 it will detect whether or not the person is smiling.
 
-![動画実行サンプル_600p](https://user-images.githubusercontent.com/121159170/209489999-98afaef8-1519-4682-a2f0-21c0419940a4.png)
+![398385607-0e53c046-e2a7-47f8-9328-ee58f4d02827](https://github.com/user-attachments/assets/1e8b42a4-6437-4cd4-abf6-f4f3394b7554)
 
 #### Option
 Display the help screen
@@ -81,9 +81,6 @@ Smile Detection
    ```
    -s, --smile
    ```
-![笑顔検知](https://user-images.githubusercontent.com/121159170/209027050-cc40bd85-40b9-4dca-a526-306b5240bf68.png)
-
-
 #### Command example
 csi camera
    ```
