@@ -27,84 +27,65 @@ Multiple faces can be detected at the same time, and the coarseness of the mosai
 ## Installation
 Install this application.
    ```
-   $ git clone https://github.com/CosmorootMcs/eye_mosaic
+   $ git clone https://github.com/CosmorootMcs/smile_creator
    ```
 Install the dependent modules.
    ```
-   $ cd eye_mosaic
-   
    $ pip3 install -r requirements.txt
    ```
 
 ## Usage
 
-Check the camera number and make a note of it.
+Find the camera number and make a note of it.
    ```
    $ ls -la /dev/video*
    ```
-Navigate to the folder where you downloaded this app.
+Navigate to the downloaded folder.
    ```
-   $ cd eye_mosaic
+   $ cd smile_creator
    ```
-Run this application with the command below. Also, use the camera number that you wrote down.  
-Press Q to quit the application.
+Run the program with the following command. 
+Use the camera number you noted down. To end the program, press Q.
 
    ```
-   $ python3 eye_mosaic.py [-h] [--csi]
-                           [--roughness(0,99)]
-                           [--camera CAMERA_NUM] [--face]
+   $ python3 smile_creator.py [--camera CAMERA_NUM]
+                              [--csi]
+                              [--smile]
+                              [-h] 
                          
      optional arguments:
-       -h, --help         show this help message and exit
-       --csi              use CSI camera
-       -r, --roughness    roughness of the mosaic(between 0 and 100)
        -c CAMERA_NUM, --camera CAMERA_NUM
                           camera number
-       -f, --face         blur a face
+       --csi              use CSI camera
+       -s, --smile        Smile detection
+       -h, --help         show this help message and exit
    ```
 
-When you run the application, the image of the camera is output,  
-and if a face is detected, it will be mosaicked.
+When you execute the command, the camera will output video and if a face is captured on camera, 
+it will detect whether or not the person is smiling.
 
 ![動画実行サンプル_600p](https://user-images.githubusercontent.com/121159170/209489999-98afaef8-1519-4682-a2f0-21c0419940a4.png)
 
 #### Option
-Display help screen
+Display the help screen
    ```
    -h, --help
    ```
 
-If you use CSI cameras, add this option. 
+Add this option if you use a CSI camera
    ```
    --csi
    ```
 
-Change the roughness of the mosaic. 
-Can be set from 0 to 99, 99 being the coarsest.
+Smile Detection
    ```
-   -r, --roughness 
+   -s, --smile
    ```
-
-![モザイクの粗さ_600p](https://user-images.githubusercontent.com/121159170/209489907-a6c4203a-bf43-41a1-a28a-52a4b8d9e3c6.png)
-
-Select the camera number to use (reference：/dev/video*)
-   ```
-   -c *, --camera *
-   ```
-Mosaic all over the face
-   ```
-   -f, --face
-   ```
-![顔モザイク](https://user-images.githubusercontent.com/121159170/209027050-cc40bd85-40b9-4dca-a526-306b5240bf68.png)
+![笑顔検知](https://user-images.githubusercontent.com/121159170/209027050-cc40bd85-40b9-4dca-a526-306b5240bf68.png)
 
 
 #### Command example
-
-USB Web camera(No.0), roughness : 30
+csicamera
    ```
-   $ python3 eye_mosaic.py --camera 0 --roughness 30
-   ```
-CSI camera(No.1), roughness : 80, Mosaic all over the face
-   ```
-   $ python3 eye_mosaic.py --csi -c 1 -r 80 -f
+   $ python3 eye_mosaic.py --csi -s
    ```
