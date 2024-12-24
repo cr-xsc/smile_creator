@@ -85,7 +85,7 @@ Smile Detection
 
 
 #### Command example
-csicamera
+csi camera
    ```
    $ python3 eye_mosaic.py --csi -s
    ```
