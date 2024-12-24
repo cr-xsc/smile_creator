@@ -68,7 +68,7 @@ Jetson nanoに接続した USBウェブカメラ または CSIカメラの映像
 コマンドを実行すると、カメラの映像が出力され  
 カメラに顔が映ると、笑顔の検出をします。
 
-![笑顔検知](https://github.com/cr-xsc/smile_creator/issues/2#issue-2757528226)
+![398385607-0e53c046-e2a7-47f8-9328-ee58f4d02827](https://github.com/user-attachments/assets/1e8b42a4-6437-4cd4-abf6-f4f3394b7554)
 
 #### オプション
 ヘルプ画面を表示する
