@@ -50,19 +50,15 @@ Use the camera number you noted down. To end the program, press Q.
    ```
    $ python3 smile_creator.py [--camera CAMERA_NUM]
                               [--csi]
-                              [--smile]
                               [-h] 
                          
      optional arguments:
        -c CAMERA_NUM, --camera CAMERA_NUM
                           camera number
        --csi              use CSI camera
-       -s, --smile        Smile detection
        -h, --help         show this help message and exit
    ```
-
-When you execute the command, the camera will output video and if a face is captured on camera, 
-it will detect whether or not the person is smiling.
+When you execute the command, the camera image is output, and if a face is captured on the camera, a smile is detected, and if the face is not smiling, a smile image is pasted onto the face.
 
 ![398385607-0e53c046-e2a7-47f8-9328-ee58f4d02827](https://github.com/user-attachments/assets/1e8b42a4-6437-4cd4-abf6-f4f3394b7554)
 
@@ -77,12 +73,17 @@ Add this option if you use a CSI camera
    --csi
    ```
 
-Smile Detection
+Specify the camera number to be used
    ```
-   -s, --smile
+   --camera CAMERA_NUM
    ```
 #### Command example
 csi camera
    ```
    $ python3 eye_mosaic.py --csi -s
+   ```
+
+Use the camera from video1
+   ```
+   $ python3 eye_mosaic.py --camera 1
    ```
