@@ -92,7 +92,7 @@ while True:
     # ------------------------------------------------------
 
     # 結果の表示
-    cv2.imshow('Smile Create', frame)
+    cv2.imshow('Smile Creator', frame)
 
     # 'q'キーで終了
     if cv2.waitKey(1) & 0xFF == ord('q'):
