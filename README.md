@@ -1,7 +1,7 @@
 # smile_creator
 
 ## Demo
-![smile_creator](https://github.com/user-attachments/assets/fe0fca9a-33d3-499c-8b9e-09b607ac0d71)
+![SmileCreator](https://github.com/user-attachments/assets/3f3fa6b4-c383-410d-a45b-bcc22ec21694)
 
 [youtube](https://www.youtube.com/watch?v=7SpeD7yOXh8)
 
