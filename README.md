@@ -1,9 +1,9 @@
-# smile_creator
+https://youtu.be/LMhfFWnnSW8# smile_creator
 
 ## Demo
 ![SmileCreator](https://github.com/user-attachments/assets/3f3fa6b4-c383-410d-a45b-bcc22ec21694)
 
-[youtube](https://www.youtube.com/watch?v=zFk1sfW1fZw)
+[youtube](https://youtu.be/LMhfFWnnSW8)
 
 
 ## table of contents
