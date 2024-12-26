@@ -80,7 +80,7 @@ Specify the camera number to be used
 #### Command example
 csi camera
    ```
-   $ python3 eye_mosaic.py --csi -s
+   $ python3 eye_mosaic.py --csi
    ```
 
 Use the camera from video1
