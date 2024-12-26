@@ -1,5 +1,3 @@
-https://youtu.be/LMhfFWnnSW8# smile_creator
-
 ## Demo
 ![SmileCreator](https://github.com/user-attachments/assets/3f3fa6b4-c383-410d-a45b-bcc22ec21694)
 
