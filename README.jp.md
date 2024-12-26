@@ -31,7 +31,7 @@ Jetson nanoに接続した USBウェブカメラ または CSIカメラの映像
 ## インストール方法
 ファイルのダウンロード
    ```
-   $ git clone https://github.com/CosmorootMcs/smile_creator
+   $ git clone https://github.com/cr-xsc/smile_creator
    ```
 環境のインストール
    ```
