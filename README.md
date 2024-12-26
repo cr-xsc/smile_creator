@@ -27,7 +27,7 @@ Multiple faces can be detected at the same time, and the coarseness of the mosai
 ## Installation
 Install this application.
    ```
-   $ git clone https://github.com/CosmorootMcs/smile_creator
+   $ git clone https://github.com/cr-xsc/smile_creator
    ```
 Install the dependent modules.
    ```
