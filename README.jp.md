@@ -4,7 +4,7 @@
 ![SmileCreator](https://github.com/user-attachments/assets/3f3fa6b4-c383-410d-a45b-bcc22ec21694)
 
 
-[動画リンク](https://www.youtube.com/watch?v=zFk1sfW1fZw)
+[動画リンク](https://youtu.be/LMhfFWnnSW8)
 
 
 ## 目次
